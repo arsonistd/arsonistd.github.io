@@ -5,35 +5,42 @@ h1 {
   color: rgb(199, 199, 199);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: large;
+  text-align: center;
 }
 h2 {
   color: rgb(199, 199, 199);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: medium;
+  text-align: center;
 }
 p {
   color: rgb(167, 167, 167);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: small;
+  text-align: center;
 }
 footer {
   color: rgb(167, 167, 167);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: smaller;
+  text-align: center;
 }
 hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 4px solid #bbb;
   border-radius: 5px;
+  text-align: center;
 }
 
 li {
   color: rgb(167, 167, 167);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: small;
+  text-align: center;
 }
 
 ul {
   list-style: none; /* Remove default bullets */
+  text-align: center;
 }
 
 ul li::before {
