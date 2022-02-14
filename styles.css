@@ -21,3 +21,7 @@ footer {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: smaller;
 }
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
