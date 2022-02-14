@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(49, 49, 49);
+}
+h1 {
+  color: rgb(199, 199, 199);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+h2 {
+  color: rgb(199, 199, 199);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+}
+p {
+  color: rgb(167, 167, 167);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+}
+footer {
+  color: rgb(167, 167, 167);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: smaller;
+}
