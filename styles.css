@@ -25,6 +25,11 @@ footer {
   font-size: smaller;
   text-align: center;
 }
+
+#footbar {
+   color: rgb(167, 167, 167);
+}
+
 hr.rounded {
   border-top: 2px solid #bbb;
   border-radius: 1px;
