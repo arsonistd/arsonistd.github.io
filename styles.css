@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(49, 49, 49);
+}
+h1 {
+  color: rgb(199, 199, 199);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  text-align: center;
+}
+h2 {
+  color: rgb(199, 199, 199);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+p {
+  color: rgb(167, 167, 167);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+footer {
+  color: rgb(167, 167, 167);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: smaller;
+  text-align: center;
+}
+hr.rounded {
+  border-top: 2px solid #bbb;
+  border-radius: 1px;
+  text-align: center;
+}
+
+li {
+  color: rgb(167, 167, 167);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  text-align: center;
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
