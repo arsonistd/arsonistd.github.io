@@ -99,6 +99,7 @@ ul li::before {
 }
 
 .center-icon a {
+  display: inline-block;
   float: none;
   position: absolute;
   top: 50%;
