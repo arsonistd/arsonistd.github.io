@@ -74,6 +74,7 @@ ul li::before {
 
 /* Navbar links */
 .navbar a {
+  display: inline-block;
   height: 100%;
   float: none;
   text-align: center;
@@ -81,6 +82,10 @@ ul li::before {
   color: white;
   text-decoration: none;
   font-size: 17px;
+}
+
+.nav li {
+  display: inline;
 }
 
 /* Navbar links on mouse-over */
@@ -93,11 +98,25 @@ ul li::before {
   background-color: rgb(255, 10, 10);
 }
 
+.centericon a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
   .navbar a {
     float: left;
     display: block;
+  }
+  .centericon a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
   }
 }
 
