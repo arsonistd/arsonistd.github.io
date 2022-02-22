@@ -98,7 +98,7 @@ ul li::before {
   background-color: rgb(255, 10, 10);
 }
 
-.centericon a {
+.center-icon a {
   float: none;
   position: absolute;
   top: 50%;
@@ -112,7 +112,7 @@ ul li::before {
     float: left;
     display: block;
   }
-  .centericon a {
+  .center-icon a {
     position: relative;
     top: 0;
     left: 0;
