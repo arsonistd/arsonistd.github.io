@@ -74,6 +74,7 @@ ul li::before {
 
 /* Navbar links */
 .navbar a {
+  height: 100%;
   float: center;
   text-align: center;
   padding: 12px;
