@@ -61,7 +61,7 @@ ul li::before {
 .navbar {
   height: "100px";
   width: 100%;
-  background-color: rgb(23, 23, 23);
+  background-color: rgb(0, 0, 0);
   overflow: auto;
 
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
@@ -85,7 +85,7 @@ ul li::before {
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(0, 0, 0);
 }
 
 /* Current/active navbar link */
