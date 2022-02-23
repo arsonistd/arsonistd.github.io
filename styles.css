@@ -66,13 +66,15 @@ ul li::before {
 
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   position: fixed; /* Make it stick/fixed */
+
+  /* Center horizontally*/
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 #navbar {
   top: 0; /* Stay on top */
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }
 
 /* Navbar links */
