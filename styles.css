@@ -72,6 +72,7 @@ ul li::before {
   justify-content: center;
   margin: auto;
   top: 0; /* Stay on top */
+  align-items: center;
 }
 
 /* Navbar links */
@@ -84,16 +85,17 @@ ul li::before {
   color: white;
   text-decoration: none;
   font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: rgb(38, 38, 38);
+  border-bottom: 3px solid rgb(38, 38, 38);
 }
 
 /* Current/active navbar link */
 .active {
-  background-color: rgb(255, 10, 10);
+  border-bottom: 3px solid rgb(255, 0, 0);
 }
 
 .center-icon a {
