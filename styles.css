@@ -94,7 +94,7 @@ ul li::before {
 }
 
 /* Current/active navbar link */
-.active:hover{
+.navbar a.active {
   border-bottom: 3px solid rgb(255, 0, 0);
 }
 
