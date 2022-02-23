@@ -84,6 +84,7 @@ ul li::before {
   font-size: 17px;
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 /* Navbar links on mouse-over */
