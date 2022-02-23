@@ -58,11 +58,6 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-/* Center the buttons in the nav */
-.buttons {
-  margin: auto;
-}
-
 /* Style the navigation bar */
 .navbar {
   width: 100%;
@@ -87,15 +82,13 @@ ul li::before {
   color: white;
   text-decoration: none;
   font-size: 17px;
-}
-
-.nav li {
-  display: inline;
+  display: flex;
+  justify-content: center;
 }
 
 /* Navbar links on mouse-over */
 .navbar a:hover {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(38, 38, 38);
 }
 
 /* Current/active navbar link */
