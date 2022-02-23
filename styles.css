@@ -71,9 +71,6 @@ ul li::before {
   display: flex;
   justify-content: center;
   margin: auto;
-}
-
-#navbar {
   top: 0; /* Stay on top */
 }
 
