@@ -1,4 +1,3 @@
-
 body {
   margin: 0px;
   background-color: rgb(49, 49, 49);
@@ -60,8 +59,8 @@ ul li::before {
 }
 
 /* Center the buttons in the nav */
-.buttons{
-  
+.buttons {
+  margin: auto;
 }
 
 /* Style the navigation bar */
