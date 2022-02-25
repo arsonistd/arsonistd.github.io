@@ -34,6 +34,7 @@ p {
   position: fixed;
 
   top: 0;
+  z-index: 99;
 
   display: flex;
   justify-content: center;
@@ -99,6 +100,15 @@ p {
 }
 .navbar a.active {
   border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
 }
 
 .footer-bar {
