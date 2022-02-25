@@ -1,12 +1,14 @@
-/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-var prevPos = window.pageYOffset;
-window.onscroll = function() {
-  console.log("Scrolling")
-  var currentScrollPos = window.pageYOffset;
-  if (prevPos > currentScrollPos) {
-    document.getElementsByClassName("navbar").styles.top = "0";
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.height = "75px";
+    document.getElementById("logo").style.height = "100px";
+    document.getElementById("logo").style.width = "100px";
   } else {
-    document.getElementsByClassName("navbar").styles.top = "-50px";
+    document.getElementById("navbar").style.height = "175px";
+    document.getElementById("logo").style.height = "150px";
+    document.getElementById("logo").style.width = "150px";
   }
-  prevPos = currentScrollPos;
 }
