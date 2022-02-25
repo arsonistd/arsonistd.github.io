@@ -4,9 +4,9 @@ window.onscroll = function() {
   console.log("Scrolling")
   var currentScrollPos = window.pageYOffset;
   if (prevPos > currentScrollPos) {
-    document.getElementsByTagName("navbar").styles.top = "0";
+    document.getElementsByClassName("navbar").styles.top = "0";
   } else {
-    document.getElementsByTagName("navbar").styles.top = "-50px";
+    document.getElementsByClassName("navbar").styles.top = "-50px";
   }
   prevPos = currentScrollPos;
 }
