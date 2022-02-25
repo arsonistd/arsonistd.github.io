@@ -94,7 +94,7 @@ p {
   height: 100%;
   width: 100%;
 }
-.navbar a:not(.center-icon):hover {
+.navbar a:not(.center-icon):not(.active):hover {
   border-bottom: 3px solid rgb(38, 38, 38);
 }
 .navbar a.active {
