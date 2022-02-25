@@ -20,105 +20,107 @@ p {
   font-size: small;
   text-align: center;
 }
-footer {
-  color: rgb(167, 167, 167);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: smaller;
-  text-align: center;
+.content {
+  margin-top: 200px;
 }
 
-#footbar {
-  color: rgb(167, 167, 167);
-}
-
-hr.rounded {
-  border-top: 2px solid #bbb;
-  border-radius: 1px;
-  text-align: center;
-}
-
-li {
-  color: rgb(167, 167, 167);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-ul {
-  list-style: none; /* Remove default bullets */
-  text-align: center;
-}
-
-ul li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: white; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
-
-/* Style the navigation bar */
 .navbar {
   width: 100%;
+  height: 175px;
   background-color: rgb(0, 0, 0);
-  overflow: auto;
+  overflow: hidden;
 
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  position: fixed; /* Make it stick/fixed */
+  transition: top 0.3s;
+  position: fixed;
 
-  /* Center horizontally*/
+  top: 0;
+
   display: flex;
   justify-content: center;
   margin: auto;
-  top: 0; /* Stay on top */
   align-items: center;
 }
-
-/* Navbar links */
-.navbar a {
+.navbar a:not(.center-icon) {
   display: inline-block;
-  height: 100%;
-  float: none;
+  height: 10px;
   text-align: center;
-  padding: 12px;
+  padding: auto;
   color: white;
   text-decoration: none;
   font-size: 17px;
   border-bottom: 3px solid transparent;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-bottom: 15px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
+.navbar .left-container {
+  width: 300px;
+  height: 20%;
 
-/* Navbar links on mouse-over */
-.navbar a:hover {
-  border-bottom: 3px solid rgb(38, 38, 38);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translate(-250px, 0);
+  position: absolute;
+
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
+.navbar .right-container {
+  width: 300px;
+  height: 20%;
 
-/* Current/active navbar link */
-.navbar a.active {
-  border-bottom: 3px solid rgb(255, 0, 0);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translate(250px, 0);
+  position: absolute;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
-
-.center-icon a {
-  display: inline-block;
+.center-icon {
   float: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 150px;
+  display: inline-block;
+}
+.center-icon img {
+  height: 100%;
+  width: 100%;
+}
+.navbar a:not(.center-icon):hover {
+  border-bottom: 3px solid rgb(38, 38, 38);
+}
+.navbar a.active {
+  border-bottom: 3px solid rgb(255, 0, 0);
 }
 
-/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: left;
-    display: block;
-  }
-  .center-icon a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
+.footer-bar {
+  background-color: rgb(44, 44, 44);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+hr.footer-ruler {
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+footer {
+  color: rgb(162, 162, 162);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: smaller;
+  text-align: center;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
