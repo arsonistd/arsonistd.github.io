@@ -10,16 +10,22 @@
 		<script type="text/javascript" src="NavbarScroll.js"></script>
 	</head>
 	<body>
-		<div class="navbar" id="navbar">
-			<a href="#">Home</a>
-			<a class="active" href="aboutme.html">About Me</a>
-			<a href="blog.html">Blog</a>
-			<a class="center-icon" href="#" target="blank"><img src="images/logo.png" alt="logo" height="150" width="150px"></a>
-			<a href="resume.html">Resume</a>
-			<a href="commissions.html">Commissions</a>
-			<a href="portfolio.html">Portfolio</a>
+		<div class="navbar">
+			<div class="left-container">
+				<a href="index.html">Home</a>
+				<a class="active" href="aboutme.html">About Me</a>
+				<a href="blog.html">Blog</a>
+			</div>
+			<div class="right-container">
+				<a href="resume.html">Resume</a>
+				<a href="commissions.html">Commissions</a>
+				<a href="portfolio.html">Portfolio</a>
+			</div>
+			<a class="center-icon" href="index.html" target="blank">
+				<img src="images/logo.png" alt="logo" >
+			</a>
 		</div>
-		<div id="Content">
+		<div class="content">
 			<div id="Hobbies">
 				<header><h1> Hobbies </h1></header>
 				<ul>
@@ -30,7 +36,13 @@
 				</ul>
 			</div>
 		</div>
-		<footer> Ryan McKee 2022 </footer>
-		<footer> arsonistd@gmail.com </footer>
+		<div class="footer-bar">
+			<hr class="footer-ruler">
+			<div class="footer-container">
+				<footer> Ryan McKee 2022 </footer>
+				<footer> arsonistd@gmail.com </footer>
+			</div>
+			<hr class="footer-ruler">
+		</div>
 	</body>
 </html>
