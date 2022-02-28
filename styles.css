@@ -24,6 +24,15 @@ p {
   margin-top: 200px;
 }
 
+#Softwares, 
+#Skills,
+#Experience,
+#Certifications
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 #navbar {
   transition: all 0.5s;
 }
