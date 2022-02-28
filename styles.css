@@ -24,13 +24,12 @@ p {
   margin-top: 200px;
 }
 
-#Softwares, 
+#Softwares,
 #Skills,
 #Experience,
-#Certifications
-{
-	margin-top: 50px;
-	margin-bottom: 50px;
+#Certifications {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #navbar {
@@ -122,10 +121,7 @@ p {
 
 @media screen and (max-width: 500px) {
   .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left; /* If you want the text to be left-aligned on small screens */
+    height: 500px;
   }
 }
 
