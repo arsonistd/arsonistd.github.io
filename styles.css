@@ -119,17 +119,37 @@ p {
   border-bottom: 3px solid rgb(255, 0, 0);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .navbar {
-    height: 500px;
+    height: 400px;
+    flex-direction: column;
+  }
+  #navbar {
+    transition: all 0.1s;
   }
   .navbar .right-container,
   .navbar .left-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    height: 100px;
     width: 100%;
     top: initial;
     left: initial;
     transform: initial;
+    position: initial;
+  }
+  .center-icon {
+    display: flex;
+    float: initial;
+    position: initial;
+    top: initial;
+    left: initial;
+    transform: initial;
+    display: block;
+    position: initial;
+  }
+  .content {
+    margin-top: 500px;
   }
 }
 
