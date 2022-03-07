@@ -3,7 +3,7 @@ body {
   background-color: rgb(49, 49, 49);
 }
 h1 {
-  color: rgb(199, 199, 199);
+  color: rgb(223, 223, 223);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: large;
   text-align: center;
@@ -16,9 +16,14 @@ h2 {
 }
 p {
   color: rgb(167, 167, 167);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
   text-align: center;
+}
+
+li {
+  color: rgb(181, 181, 181);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .content {
   margin-top: 200px;
